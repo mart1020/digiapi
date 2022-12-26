@@ -1,4 +1,87 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
 .color-nav{
     background-image: radial-gradient(circle at 77.17% 27.2%, #00b0ff 0, #025d95 50%, #00172b 100%);
+    font-family: 'Press Start 2P', cursive;
 }
+
+/*--------------------------------------*/
+/*CARTAS*/
+/*--------------------------------------*/
+
+.card-image:hover img{
+    transform: scale(1.2);
+    transition-duration: .8;
+    filter: grayscale(90%);
+
+
+}
+
+.card-image{
+    overflow: hidden;
+
+}
+
+.card:hover{
+    box-shadow: 21px 27px 9px -11px rgba(0,0,0,0.58);
+    cursor: pointer;
+}
+
+.card content{
+    height: 26vh;
+}
+
+/*-------------------------------------------*/
+/*PAGINADOR*/
+/*-------------------------------------------*/
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin: 26px;
+
+
+}
+.pagination-button{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.pagination-button:disabled{
+    color: #757575;
+    border-color: #757575;
+}
+
+.container-paginador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*-------------------------------------------*/
+/*LOADER*/
+/*-------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
