@@ -4,8 +4,10 @@
 
 
 .color-nav{
-    background-image: radial-gradient(circle at 77.17% 27.2%, #00b0ff 0, #025d95 50%, #00172b 100%);
-    font-family: 'Press Start 2P', cursive;
+    background-image: radial-gradient(circle at 110.4% 28.02%, #ff6cff 0, #aa57ff 25%, #3c3cf2 50%, #0022b0 75%, #000977 100%);
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*--------------------------------------*/

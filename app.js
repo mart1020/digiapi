@@ -1,17 +1,16 @@
 
 
+const root = document.getElementById('root');
+
 let pagina = 1;
 
 const getData = async () => {
-    const url = `https://www.digi-api.com/api/v1/digimon?page=0${pagina}`
+    const url = `https://api.disneyapi.dev/characters?page=${pagina}`
     const response = await fetch(url)
     const json = await response.json();
-    printData(json)
+    console.log(json)
 }
 
 getData()
 
-const printData = arr => {
-    console.log(arr)
-}
 
