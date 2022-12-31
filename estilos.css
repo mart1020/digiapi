@@ -1,13 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200&display=swap');
+
 
 
 
 .color-nav{
     background-image: radial-gradient(circle at 110.4% 28.02%, #ff6cff 0, #aa57ff 25%, #3c3cf2 50%, #0022b0 75%, #000977 100%);
-    font-family: 'WaltographRegular';
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Cairo Play', cursive;
 }
 
 /*--------------------------------------*/
@@ -23,8 +23,8 @@
 }
 
 .card-image{
-    overflow: hidden;
-
+    overflow:hidden
+    
 }
 
 .card:hover{
@@ -33,42 +33,12 @@
 }
 
 .card-content{
-    height: 26vh;
+    height: 20vh;
     color: black;
+    overflow: hidden;
+    display: inline-block;
 }
 
-/*-------------------------------------------*/
-/*PAGINADOR*/
-/*-------------------------------------------*/
-
-.pagination{
-    display: flex;
-    justify-content: center;
-    margin: 26px;
-
-
-}
-.pagination-button{
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-}
-
-.pagination-button:disabled{
-    color: #757575;
-    border-color: #757575;
-}
-
-.container-paginador{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 /*-------------------------------------------*/
 /*LOADER*/
@@ -142,6 +112,9 @@
     }
   }
     
+.esconder{
+  display: none;
+}
 
 
 
