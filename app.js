@@ -62,7 +62,7 @@ const printData = arr =>{
                     
                 </div>
             <div class="card-action">
-                <a href="#">Ver más</a>
+                
             </div>
             </div>
         </div>
