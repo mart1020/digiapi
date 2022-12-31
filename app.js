@@ -17,11 +17,6 @@ const Mega = document.getElementById('Mega')
 const Ultimate = document.getElementById('Ultimate') 
 const Armor = document.getElementById('Armor') 
 
-
-
-
-
-
 //----------------------------------------
 let pagina = 1;
 
